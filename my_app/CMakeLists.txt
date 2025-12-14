@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.15)
 # 2. 定义项目名称、版本和编程语言
 project(MyApp VERSION 1.0 LANGUAGES CXX)
 
-# 3. 设置C++标准（C++17是现代项目的常见选择）
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON) # 强制要求使用C++17标准
+# 3. 设置C++标准（C++11是现代项目的常见选择）
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON) # 强制要求使用C++11标准
 
 # 4. 全局编译选项（根据需要进行调整）
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra") # 开启常用警告
